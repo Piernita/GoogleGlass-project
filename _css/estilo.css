@@ -88,7 +88,7 @@ nav#menu a:hover {
 
 div#interface {
 	background-color: white; 
-	width: 1166px; 
+	width: 1166px; /*tamanho*/
 	margin: -18px auto 0px auto; /* Utilziado para centralizar */
 	padding: 10px; /* 5px de padding equivalem a 15 de width????? */
 	box-shadow: 0px 0px 10px gray; /* Borda da interface sombreada, ficar agradavel ao olhos */
