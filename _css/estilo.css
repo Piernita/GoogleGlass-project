@@ -12,7 +12,31 @@ p { /* config global para a tag de  paragrafo */
 header#cabecalho img#icone {
 	position: absolute;
 	left: 1095px;
-	top: 55px;
+	top: 78px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid; /*espessura cor forma*/
+	height: 150px; /*altura*/
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 87px; /* inserção de imagem no css, assim como posicionameno */ 
+}
+
+header#cabecalho h1 {
+	font-family: Arial, sans-serif; /*sem serifa*//
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	color: #808080;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 5px;
+
 }
 
 /* Formatação de imagens */
@@ -65,7 +89,7 @@ nav#menu li {
 	padding: 7.5px; /* Cria um espaço dentro dele */
 	margin: 2px; /* Cria um espaço fora dele */
 	transition: background-color 0.75s;
-}
+}	
 
 nav#menu li:hover {
 	background-color: gray;
@@ -91,6 +115,7 @@ div#interface {
 	width: 1166px; /*tamanho*/
 	margin: -18px auto 0px auto; /* Utilziado para centralizar */
 	padding: 10px; /* 5px de padding equivalem a 15 de width????? */
+	/* Sobre isso descobri que por ser block, ao inserir padding ele ainda aumenta o bloco */ 
 	box-shadow: 0px 0px 10px gray; /* Borda da interface sombreada, ficar agradavel ao olhos */
 }
 
