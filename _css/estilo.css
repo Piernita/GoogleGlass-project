@@ -122,6 +122,19 @@ section#corpo {
 	padding: 15px;
 }
 
+table#tabela-tec {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table#tabela-tec td {
+	border: 1px solid #606060;
+	padding: 10px;
+	
+}
+
 aside#lateral {
 	display: block;
 	width: 410px;
